@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu1"
+        android:title="Name" />
+    <item
+        android:id="@+id/menu2"
+        android:title="Date" />
+
+    <group android:id="@+id/group_checkboxes">
+    <item
+        android:id="@+id/menu3"
+        android:title="Show active"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/menu4"
+        android:title="Show Inactive"
+        android:checkable="true"/>
+    </group>
+
+</menu>
